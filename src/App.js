@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './Login';
 
 function App() {
 
@@ -52,7 +53,8 @@ function App() {
         </div>
          <br/>
         <span id="smessage" style={messageStyle}>Comming Soon!</span>
-
+        <Login/>
+      
     </div>
   );
 }
